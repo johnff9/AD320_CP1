@@ -16,3 +16,50 @@ body {
   margin-right: auto;
   width: 80%;
 }
+
+/* Header styling */
+header {
+  background-color: #3b3b3b;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Section styling */
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+article {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  width: calc(50% - 20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #3b3b3b;
+  color: white;
+}
