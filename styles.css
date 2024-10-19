@@ -1,65 +1,47 @@
-/*
-  *** TODO: fill in your header ***
-  INSERT YOUR NAME HERE
-  INSERT THE CURRENT DATE HERE
-
-  WRITE A 2-3 SENTENCE FILE DESCRIPTION HERE
-*/
-
-/*
-  Note: This body rule set is to get you started
-*/
+    /*
+      Name: John Farnandez
+      Date:  October 11, 2024
+      This is the styles.css page for my CP1 project. It contains google font
+      as well as flexbox usage to wrap and move around elements of the html files I created.
+    */
 body {
-  background-color: rgb(137, 182, 154);
-  font-family: "Helvetica", sans-serif;
-  margin-left: auto;
-  margin-right: auto;
+  background-color: #f0f0f0;
+  font-family: 'Roboto', sans-serif; /* Using Google Font */
+  margin: 0 auto;
+  color: #333;
+  line-height: 1.6;
   width: 80%;
 }
 
-/* Header styling */
-header {
-  background-color: #3b3b3b;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-nav ul {
-  list-style-type: none;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 10px;
-}
-
-nav ul li a {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-/* Section styling */
 section {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  justify-content: space-between;
   padding: 20px;
 }
 
 article {
+  display: grid;
+  grid-template-rows: auto 1fr;
   background-color: white;
   padding: 15px;
+  margin-bottom: 20px;
   border-radius: 5px;
-  width: calc(50% - 20px);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
-/* Footer styling */
-footer {
-  text-align: center;
-  padding: 20px;
+header, nav {
   background-color: #3b3b3b;
   color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+
+footer {
+  background-color: #3b3b3b;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
 }
